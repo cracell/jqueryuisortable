@@ -9,6 +9,14 @@ module JQueryUISortable
       self.scope = options[:scope]
       send :include, InstanceMethods
     end
+    
+    def update_positions(ids, conditions)
+      ids.each_with_index do |id, index|
+        if record = self.find(id, conditions)
+          record.update_attribute(:position, (index + 1))
+        end
+      end
+    end
   end
  
   module InstanceMethods
