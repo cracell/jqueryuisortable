@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "jqueryuisortable"
   gem.homepage = "http://github.com/cracell/jqueryuisortable"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Adds Rails functionality to help with jQuery UI's sortable function}
+  gem.description = %Q{Adds Rails functionality to help with jQuery UI's sortable function}
   gem.email = "cracell@gmail.com"
   gem.authors = ["Eric Cranston"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
