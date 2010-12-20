@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{jqueryuisortable}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Cranston"]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "jqueryuisortable.gemspec",
     "lib/jqueryuisortable.rb",
     "test/helper.rb",
     "test/test_jqueryuisortable.rb"
