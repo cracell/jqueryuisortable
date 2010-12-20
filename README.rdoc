@@ -1,6 +1,10 @@
 = jqueryuisortable
 
-Description goes here.
+A RubyGem to easily add some simple handling to Rails to make working with jQuery UI's Sortable easier.
+
+== Compatible
+
+Tested with Rails 3.0.3 on Ruby 1.9.2
 
 == Contributing to jqueryuisortable
  
