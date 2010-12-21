@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "jqueryuisortable.gemspec",
     "lib/jqueryuisortable.rb",
+    "lib/railtie.rb",
     "test/helper.rb",
     "test/test_jqueryuisortable.rb"
   ]

@@ -1,3 +1,5 @@
+require File.join(File.dirname(__FILE__), "railtie")
+
 module JQueryUISortable
   def self.included(base)
     base.send :extend, ClassMethods
