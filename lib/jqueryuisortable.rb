@@ -7,8 +7,8 @@ module JQueryUISortable
  
   module ClassMethods
     def jquery_ui_sortable(options = {})
-      cattr_accessor :scope
-      self.scope = options[:scope]
+      cattr_accessor :column
+      self.column = options[:column]
       send :include, InstanceMethods
     end
     
@@ -30,7 +30,7 @@ module JQueryUISortable
     
     def set_position
       conditions = {}
-      conditions.merge!({self.class.scope => self.send(self.class.scope)}) if self.class.scope.present?
+      conditions.merge!({self.class.column => self.send(self.class.column)}) if self.class.column.present?
       max = AboutUsQuestion.maximum("position", :conditions => conditions)
       self.position = max ? (max + 1) : 1
     end

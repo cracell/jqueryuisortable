@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{jqueryuisortable}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Cranston"]
-  s.date = %q{2010-12-20}
+  s.date = %q{2010-12-28}
   s.description = %q{Adds Rails functionality to help with jQuery UI's sortable function}
   s.email = %q{cracell@gmail.com}
   s.extra_rdoc_files = [
