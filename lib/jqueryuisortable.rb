@@ -28,6 +28,10 @@ module JQueryUISortable
       end
     end
     
+    def html_id
+      "#{self.class.table_name}-#{self.id}"
+    end
+    
     def set_position
       conditions = {}
       conditions.merge!({self.class.column => self.send(self.class.column)}) if self.class.column.present?
